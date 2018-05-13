@@ -1,5 +1,7 @@
 package org.imooc.dto;
 
+import org.imooc.bean.Business;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 

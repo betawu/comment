@@ -1,10 +1,12 @@
 package org.imooc.dto;
 
+import org.imooc.bean.Ad;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
-public class AdDto {
+public class AdDto extends Ad{
 	private String title;
     private String img;
     private String link;
